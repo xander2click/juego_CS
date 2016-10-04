@@ -70,6 +70,11 @@ hr.star-primary:after {
 header {
   text-align: center;
   background: #fdc30d;
+  background-image: url('img/gamification_banner_v7.png'); 
+  width: 2000px; 
+  height:100%; 
+  background-repeat:no-repeat; 
+  background-position:center;
   color: white;
 }
 header .container {
