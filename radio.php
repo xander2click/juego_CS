@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<?php include 'control-categorias.php'; ?>	
 <html lang="es">
 <head>
 
@@ -33,62 +34,89 @@
 
    <!-- Navigation -->
     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="container">  
+			<!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Menú</span> Menú <i class="fa fa-bars"></i>
                 </button>
-               <a href="#.html"><img class="img-responsive" src="img/logo3.svg" alt=""></a>
+               <a href="menu.html"><img class="img-responsive" src="img/logo3.svg" alt=""></a>
             </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
+		
+		
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav navbar-right" style="text-align:center" align="center">
+                     <li class="page-scroll">
+                       <a href="index.html" >Inicio
+									<img src="img/home.svg" alt="" style="max-width:35px" >
+						</a>
+                    </li>
+                    <li class="page-scroll">
+                       <a href="radio.html" >Radio
+									<img src="img/radio.svg" alt="" style="max-width:35px" >
+						</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="historia.html" >Historia
+									<img src="img/historia.svg" alt="" style="max-width:35px">
+								</a>
+                    </li>
 					<li class="page-scroll">
-						<a href="index.html">Inicio</a>
-					</li>
-					 <li class="page-scroll">
-						<a href="#jugar">Jugar</a>
-					</li>
+                       <a href="tv.html"  >TV
+									  <img src="img/tv.svg" alt="" style="max-width:35px">
+									</a>
+                    </li>
 					<li class="page-scroll">
-						<a href="index.html">Nosotros</a>
-					</li>
-					<li class="page-scroll">
-						<a href="index.html">Contacto</a>
-					</li>					
+                       <a href="teorias.html" >Teorías
+									<img src="img/teorias.svg" alt="" style="max-width:35px">
+								</a>	
+                    </li>
                 </ul>
-            </div>
-            <!-- /.navbar-collapse -->
+				</div>
         </div>
         <!-- /.container-fluid -->
     </nav>
-
-
-
-
     <!-- Header -->
     <header style=" background-image: url('img/confusing-background.png'); width: 100%; height:100%; background-repeat:no-repeat; background-position:center;">
         <div class="container" id="jugar" >
-            <div class="row">
-				<div class="intro-text">
-
-
-					<span class="name">Selecciona el nivel</span>
-					  <hr class="star-light">
-					
-					<!-- BOTONES DE NIVELES -->
-					<?php include 'php/categorias.php'; ?>						
-					<!-- FIN BOTONES DE NIVELES -->
-
-					</div>
-				</div>
-			</div>
-		
+			    			
+           <div class ="row">		
+				
+			 <!--<img src="img/radio2.svg" alt="radio" style="max-width:35px; display:inline" > -->
+				<div class="intro-text col-xs-10 col-sm-10 col-lg-12">
+				     <span class="name">Preguntas sobre la radio</span>
+					<hr class="star-light">
+               
+					<!-- BOTONES DE NIVELES -->				   
+    				    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-3">								
+									<a href='menu.html' class='btn btn-lg btn-outline'>
+										1 <i class='fa fa-lock '></i>
+									</a>									
+    					</div>
+                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-2">
+                            <a href="menu.html" class="btn btn-lg btn-outline">
+         					    2 <i class="fa fa-question-circle "></i>
+         					</a>
+                         </div>
+                         <div class="col-xs-4 col-sm-4 col-md-4 col-lg-2">
+                            <a href="menu.html" class="btn btn-lg btn-outline">
+      						    3 <i class="fa fa-question-circle "></i>
+      						</a>
+                        </div>
+                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-2">
+                            <a href="menu.html" class="btn btn-lg btn-outline">
+        					   4 <i class="fa fa-question-circle "></i>
+        					</a>
+                        </div>
+                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-3">
+                            <a href="menu.html" class="btn btn-lg btn-outline">
+        					   5 <i class="fa fa-question-circle "></i>
+        					</a>
+                        </div>
+                </div>
+            </div>   
+				
     </header>
-
-
-
     <!-- Footer -->
     <footer class="text-center">
         <div class="footer-above">
@@ -96,9 +124,9 @@
                 <div class="row">
                     <div class="footer-col col-md-4">
                         <h3>Ubicación</h3>
-						MediaLab | UTPL <br>
-						Cdla. San Cayetano, Calle París s/n <br>
-						Loja – Ecuador
+                        MediaLab | UTPL <br>
+                        Cdla. San Cayetano, Calle París s/n <br>
+                        Loja – Ecuador
                     </div>
                     <div class="footer-col col-md-4">
                         <h3>Redes sociales</h3>
@@ -116,7 +144,7 @@
                     <div class="footer-col col-md-4">
                         <h3>Acerca de</h3>
                         ccortiz@utpl.com<br>
-						Teléfono (593) (07) 258-8668 ext. 138
+                        Teléfono (593) (07) 258-8668 ext. 138
                     </div>
                 </div>
             </div>
