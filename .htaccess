@@ -1,24 +1,6 @@
-RewriteEngine On
-RewriteCond %{HTTP_HOST} ^aprendizalibre.org.com [NC]
-RewriteRule ^(.*)$ http://www.aprendizalibre.com/$1 [L,R=301]
-
-RewriteCond %{HTTPS} off
-RewriteCond %{HTTP_HOST} !^www\.(.*)$ [NC]
-RewriteRule ^(.*)$ http://www.%{HTTP_HOST}/$1 [R=301,L]
-
-RewriteCond %{HTTPS} on
-RewriteCond %{HTTP_HOST} !^www\.(.*)$ [NC]
-RewriteRule ^(.*)$ https://www.%{HTTP_HOST}/$1 [R=301,L]
-
-Options -Indexes
-
-<Files .htaccess>
-Order allow,deny
-Deny from all
-</Files>
-
+Options +FollowSymLinks
 RewriteEngine on
-RewriteRule ^menu/$    /menu.php [L]
-RewriteRule ^radio/$ /radio.php [L]
-RewriteRule ^tv/$      /tv.php [L]
-RewriteRule ^inicio/$  /index.html [L]
+
+RewriteRule ^/$ index.html [L]
+RewriteRule ^inicio$ index.html [L]
+RewriteRule ^menu$ menu.php [L]
