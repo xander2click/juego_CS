@@ -46,16 +46,16 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
 					<li class="page-scroll">
-						<a href="index.html">Inicio</a>
+						<a href="inicio">Inicio</a>
 					</li>
 					 <li class="page-scroll">
 						<a href="#jugar">Jugar</a>
 					</li>
 					<li class="page-scroll">
-						<a href="index.html">Nosotros</a>
+						<a href="inicio">Nosotros</a>
 					</li>
 					<li class="page-scroll">
-						<a href="index.html">Contacto</a>
+						<a href="inicio">Contacto</a>
 					</li>					
                 </ul>
             </div>
