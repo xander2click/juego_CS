@@ -4,3 +4,8 @@ RewriteEngine on
 RewriteRule ^/$ index.html [L]
 RewriteRule ^inicio$ index.html [L]
 RewriteRule ^menu$ menu.php [L]
+
+RewriteRule ^radio$ radio.php [L]
+RewriteRule ^tv$ tv.php [L]
+RewriteRule ^historia$ historia.php [L]
+RewriteRule ^teorias$ teorias.php [L]

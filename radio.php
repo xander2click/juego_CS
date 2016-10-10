@@ -47,27 +47,27 @@
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			<ul class="nav navbar-nav navbar-right" style="text-align:center" align="center">
                      <li class="page-scroll">
-                       <a href="index.html" >Inicio
+                       <a href="inicio" >Inicio
 									<img src="img/home.svg" alt="" style="max-width:35px" >
 						</a>
                     </li>
                     <li class="page-scroll">
-                       <a href="radio.html" >Radio
+                       <a href="radio" >Radio
 									<img src="img/radio.svg" alt="" style="max-width:35px" >
 						</a>
                     </li>
                     <li class="page-scroll">
-                        <a href="historia.html" >Historia
+                        <a href="historia" >Historia
 									<img src="img/historia.svg" alt="" style="max-width:35px">
 								</a>
                     </li>
 					<li class="page-scroll">
-                       <a href="tv.html"  >TV
+                       <a href="tv"  >TV
 									  <img src="img/tv.svg" alt="" style="max-width:35px">
 									</a>
                     </li>
 					<li class="page-scroll">
-                       <a href="teorias.html" >Teorías
+                       <a href="teorias" >Teorías
 									<img src="img/teorias.svg" alt="" style="max-width:35px">
 								</a>	
                     </li>
@@ -89,27 +89,27 @@
                
 					<!-- BOTONES DE NIVELES -->				   
     				    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-3">								
-									<a href='menu.html' class='btn btn-lg btn-outline'>
+									<a href='c1p1' class='btn btn-lg btn-outline'>
 										1 <i class='fa fa-lock '></i>
 									</a>									
     					</div>
                         <div class="col-xs-4 col-sm-4 col-md-4 col-lg-2">
-                            <a href="menu.html" class="btn btn-lg btn-outline">
+                            <a href="c1p2" class="btn btn-lg btn-outline">
          					    2 <i class="fa fa-question-circle "></i>
          					</a>
                          </div>
                          <div class="col-xs-4 col-sm-4 col-md-4 col-lg-2">
-                            <a href="menu.html" class="btn btn-lg btn-outline">
+                            <a href="c1p3" class="btn btn-lg btn-outline">
       						    3 <i class="fa fa-question-circle "></i>
       						</a>
                         </div>
                         <div class="col-xs-4 col-sm-4 col-md-4 col-lg-2">
-                            <a href="menu.html" class="btn btn-lg btn-outline">
+                            <a href="c1p4" class="btn btn-lg btn-outline">
         					   4 <i class="fa fa-question-circle "></i>
         					</a>
                         </div>
                         <div class="col-xs-4 col-sm-4 col-md-4 col-lg-3">
-                            <a href="menu.html" class="btn btn-lg btn-outline">
+                            <a href="c1p5" class="btn btn-lg btn-outline">
         					   5 <i class="fa fa-question-circle "></i>
         					</a>
                         </div>
