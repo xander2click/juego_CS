@@ -3,6 +3,36 @@
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
+#contenedor {
+	background: #fdc30d;
+	background-image: url("../img/confusing-background.png"); 
+	background-repeat: repeat;
+	padding-top:160px;	
+	min-height: 100%;
+	width: 100%;
+	height: 100%;
+	
+}
+
+
+html {
+  min-height: 100%;
+  position: relative;
+  
+}
+body {
+  margin: 0;
+  margin-bottom: 40px;
+    height: 100%;
+}
+footer {
+  background-color: black;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  color: white;
+}
 body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   overflow-x: hidden;
@@ -301,19 +331,22 @@ form .row:first-child .floating-label-form-group {
 }
 footer {
   color: white;
+  
 }
 footer h3 {
   margin-bottom: 30px;
 }
 footer .footer-above {
-  padding-top: 50px;
+  padding-top:20px; 
+  padding-bottom:20px;
   background-color: #fdc30d;
+ 
 }
 footer .footer-col {
   margin-bottom: 50px;
 }
 footer .footer-below {
-  padding: 25px 0;
+  padding: 5px 0;
   background-color: #fdc30d;
 }
 .btn-outline {
@@ -474,21 +507,21 @@ fieldset[disabled] .btn-success.active {
 }
 .portfolio-modal .close-modal {
   position: absolute;
-  width: 75px;
-  height: 75px;
-  background-color: transparent;
+  width: 35px;
+  height: 35px;
+  background-color: white;
   top: 25px;
   right: 25px;
   cursor: pointer;
 }
 .portfolio-modal .close-modal:hover {
-  opacity: 0.3;
+  opacity: 0.8;
 }
 .portfolio-modal .close-modal .lr {
-  height: 75px;
-  width: 1px;
+  height: 35px;
+  width: 10px;
   margin-left: 35px;
-  background-color: #fdc30d;
+  background-color: #3d398c;
   transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   /* IE 9 */
@@ -497,8 +530,8 @@ fieldset[disabled] .btn-success.active {
   z-index: 1051;
 }
 .portfolio-modal .close-modal .lr .rl {
-  height: 75px;
-  width: 1px;
+  height: 35px;
+  width: 10px;
   background-color: #fdc30d;
   transform: rotate(90deg);
   -ms-transform: rotate(90deg);

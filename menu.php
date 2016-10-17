@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="es">
+<?php session_start(); $_SESSION['f1']=1;?>
+<html lang="es" style="height:100%;">
 <head>
 
     <meta charset="utf-8">
@@ -64,14 +65,12 @@
         <!-- /.container-fluid -->
     </nav>
 
-    <!-- Header -->
-    <header style=" background-image: url('img/confusing-background.png'); width: 100%; height:100%; background-repeat:no-repeat; background-position:center;">
+    <!-- NIVELES -->
+    <div id="contenedor">
         <div class="container" id="jugar" >
-            <div class="row">
+            <div class="row" >
 				<div class="intro-text">
-
-
-					<span class="name">Selecciona el nivel</span>
+					<h4 class="name text-center" style="color:white">Selecciona el nivel</h4>
 					  <hr class="star-light">
 					
 					<!-- BOTONES DE NIVELES -->
@@ -84,42 +83,12 @@
 				</div>
 			</div>
 		
-    </header>
+    </div>
 
-
+ 
 
     <!-- Footer -->
     <footer class="text-center">
-        <div class="footer-above">
-            <div class="container">
-                <div class="row">
-                    <div class="footer-col col-md-4">
-                        <h3>Ubicación</h3>
-						MediaLab | UTPL <br>
-						Cdla. San Cayetano, Calle París s/n <br>
-						Loja – Ecuador
-                    </div>
-                    <div class="footer-col col-md-4">
-                        <h3>Redes sociales</h3>
-                        <ul class="list-inline">
-                            <li>
-                                <a href="https://www.facebook.com/utpl.loja/" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
-                            </li>
-
-                            <li>
-                                <a href="https://twitter.com/utpl" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
-                            </li>
-
-                        </ul>
-                    </div>
-                    <div class="footer-col col-md-4">
-                        <h3>Acerca de</h3>
-                        ccortiz@utpl.com<br>
-						Teléfono (593) (07) 258-8668 ext. 138
-                    </div>
-                </div>
-            </div>
-        </div>
         <div class="footer-below">
             <div class="container">
                 <div class="row">
@@ -130,6 +99,7 @@
             </div>
         </div>
     </footer>
+	    </div>
 
     <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
     <div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">

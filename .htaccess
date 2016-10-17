@@ -1,6 +1,8 @@
 Options +FollowSymLinks
 RewriteEngine on
 
+
+
 RewriteRule ^/$ index.html [L]
 RewriteRule ^inicio$ index.html [L]
 RewriteRule ^menu$ menu.php [L]
@@ -9,3 +11,35 @@ RewriteRule ^radio$ radio.php [L]
 RewriteRule ^tv$ tv.php [L]
 RewriteRule ^historia$ historia.php [L]
 RewriteRule ^teorias$ teorias.php [L]
+RewriteRule ^resultados$ resultados.php [L]
+RewriteRule ^error$ error.html [L]
+RewriteRule ^bien$ bien.php [L]
+RewriteRule ^mal$ mal.php [L]
+RewriteRule ^verificar$ verificar.php [L]
+RewriteRule ^verificar2$ verificar.js [L]
+RewriteRule ^categorias$ categorias.php [L]
+
+
+# evitar el listado de carpetas
+IndexIgnore *
+Options -Indexes
+
+# asegurando el archivo htaccess
+<Files .htaccess>
+order allow,deny
+deny from all
+</Files>
+
+
+# establecemos el email del administrador del servidor
+SetEnv SERVER_ADMIN jmunoz@chilalito.com
+
+
+# cache de imágenes y contenido flash un mes
+<FilesMatch ".(flv|gif|jpg|jpeg|png|ico|swf)$">
+Header set Cache-Control "max-age=2592000"
+</FilesMatch>
+
+
+# establece el idioma por defecto
+DefaultLanguage es-ES

@@ -1,9 +1,9 @@
 <?php	
 		
-		$cat1=0;
+		$cat1=1;
 		$cat2=1;
-		$cat3=0;
-		$cat4=0;
+		$cat3=1;
+		$cat4=1;
 			if ($cat1==1){
 				echo '	<div class="col-xs-6">
 							<a href="radio" class="btn btn-lg btn-block btn-outline">
